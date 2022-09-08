@@ -5,10 +5,27 @@
 }
 
 body {
-    background-color: #161616;
+  background-color: #161616;
 }
 
 .app {
-    width: 550px;
-    background-color: #fff;
+  width: 550px;
+  background-color: #fff;
+  margin: 50px auto;
+  font-family: "Inter", sans-serif;
+}
+
+.journal {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  background-color: #f55a5a;
+}
+
+.journal-text {
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.075em;
 }
