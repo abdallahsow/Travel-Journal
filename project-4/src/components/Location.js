@@ -17,12 +17,12 @@ const Location = (props) => {
             {item.anchor}
           </a>
         </div>
-        <div>
-          <h1>{item.title}</h1>
-          <p>
+        <div className="description">
+          <h1 className="description-title">{item.title}</h1>
+          <p className="description-period">
             {item.startDate} - {item.endDate}
           </p>
-          <p>{item.description}</p>
+          <p className="description-text">{item.description}</p>
         </div>
       </did>
     </div>

@@ -7,7 +7,7 @@ const data = [
   {
     id: 1,
     locationIcon: location,
-    title: "Mountain Fuji",
+    title: "Mount Fuji",
     startDate: "12 Jan, 2021",
     endDate: "24 Jan, 2021",
     googleMapsUrl: "https://www.google.com/maps",
