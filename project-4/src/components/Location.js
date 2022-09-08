@@ -3,26 +3,26 @@ const Location = (props) => {
 
   return (
     <div className="sightseeing">
-      <img src={item.img} alt={item.alt} />
+      <img src={props.img} alt={props.alt} />
       <did>
         <div className="address-place">
-          <img src={item.locationIcon} alt="" />
-          <p className="address-name">{item.location}</p>
+          <img src={props.locationIcon} alt="" />
+          <p className="address-name">{props.location}</p>
           <a
             className="address-web"
-            href={item.googleMapsUrl}
+            href={props.googleMapsUrl}
             target="_blank"
             rel="noreferrer"
           >
-            {item.anchor}
+            {props.anchor}
           </a>
         </div>
         <div className="description">
-          <h1 className="description-title">{item.title}</h1>
+          <h1 className="description-title">{props.title}</h1>
           <p className="description-period">
-            {item.startDate} - {item.endDate}
+            {props.startDate} - {props.endDate}
           </p>
-          <p className="description-text">{item.description}</p>
+          <p className="description-text">{props.description}</p>
         </div>
       </did>
     </div>

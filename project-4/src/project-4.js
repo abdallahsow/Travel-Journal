@@ -8,14 +8,14 @@ export default function App() {
     <main className="app">
       <Navbar />
          <section className="journey">
-              <Location
+              {/* <Location
               item={data[0]}
-              />
-              </section>
-         {/*{data.map((travel) => (
+              /> */}
+
+         {data.map((travel) => (
           <Location key={travel.id} {...travel} />
         ))} 
-      </section> */}
+      </section>
     </main>
   );
 }
