@@ -20,6 +20,8 @@ body {
   justify-content: center;
   gap: 5px;
   background-color: #f55a5a;
+  align-items: center;
+  padding-block: 20px;
 }
 
 .journal-text {
