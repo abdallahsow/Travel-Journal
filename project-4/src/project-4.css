@@ -31,3 +31,8 @@ body {
   line-height: 20px;
   letter-spacing: -0.075em;
 }
+
+.sightseeing {
+  display: flex;
+  gap: 20px;
+}

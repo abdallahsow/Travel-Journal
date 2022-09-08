@@ -1,10 +1,21 @@
-import './project-4.css';
-import Navbar from './components/Navbar';
+import "./project-4.css";
+import Navbar from "./components/Navbar";
+import data from "./components/data";
+import Location from "./components/Location";
 
 export default function App() {
-    return (
-        <main className="app">
-            <Navbar />
-        </main>
-    )
+  return (
+    <main className="app">
+      <Navbar />
+         <section>
+              <Location
+              item={data[0]}
+              />
+              </section>
+         {/*{data.map((travel) => (
+          <Location key={travel.id} {...travel} />
+        ))} 
+      </section> */}
+    </main>
+  );
 }
