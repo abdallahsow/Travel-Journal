@@ -7,7 +7,7 @@ export default function App() {
   return (
     <main className="app">
       <Navbar />
-         <section>
+         <section className="journey">
               <Location
               item={data[0]}
               />
