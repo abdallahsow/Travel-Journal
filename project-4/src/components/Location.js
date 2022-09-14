@@ -1,6 +1,4 @@
 const Location = (props) => {
-  const { item } = props;
-
   return (
     <div className="sightseeing">
       <img src={props.img} alt={props.alt} />
