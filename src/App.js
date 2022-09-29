@@ -1,7 +1,7 @@
-import "./project-4.css";
 import Navbar from "./components/Navbar";
-import data from "./components/data";
 import Location from "./components/Location";
+import data from "./components/data";
+import "./App.css";
 
 export default function App() {
   return (
